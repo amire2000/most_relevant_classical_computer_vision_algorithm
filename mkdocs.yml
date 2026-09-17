@@ -1,0 +1,29 @@
+site_name: Classical Computer Vision with Python
+site_description: A practical course on the most relevant classical computer-vision algorithms.
+docs_dir: docs
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js
+  - javascripts/quiz.js
+extra_css:
+  - stylesheets/quiz.css
+theme:
+  name: material
+  favicon: assets/vision.svg
+  icon:
+    logo: material/image-filter-center-focus
+  features:
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+nav:
+  - Home: index.md
+  - Course roadmap: roadmap.md
+  - Module 3 — Sparse optical flow: module-3-sparse-optical-flow.md
+  - Lab 1 — Select and track one object: lab-1-select-and-track.md

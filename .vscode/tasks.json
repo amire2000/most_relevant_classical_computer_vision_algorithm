@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "uv: sync",
+      "type": "shell",
+      "command": "uv sync"
+    },
+    {
+      "label": "MkDocs: build",
+      "type": "shell",
+      "command": "uv run mkdocs build",
+      "group": "build"
+    },
+    {
+      "label": "MkDocs: serve",
+      "type": "shell",
+      "command": "uv run mkdocs serve",
+      "isBackground": true
+    }
+  ]
+}

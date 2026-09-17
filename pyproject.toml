@@ -1,0 +1,10 @@
+[project]
+name = "classical-computer-vision-algorithms"
+version = "0.1.0"
+description = "Course notes for classical computer-vision algorithms in Python."
+requires-python = ">=3.11"
+dependencies = [
+  "mkdocs-material",
+  "numpy",
+  "opencv-python",
+]
