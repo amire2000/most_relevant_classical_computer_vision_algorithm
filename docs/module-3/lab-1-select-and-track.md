@@ -4,6 +4,11 @@ This is the first hands-on lab for Module 3. You will select the plane in
 `plane.mp4`, find Shi–Tomasi corners with `goodFeaturesToTrack`, and follow
 those corners with pyramidal Lucas–Kanade optical flow.
 
+Read [Sparse optical flow](sparse-optical-flow.md) first. Work in
+[`code/lab/lab.py`](code/lab/lab.py); consult the completed
+[`code/example/track_object.py`](code/example/track_object.py) reference only
+after you have attempted each checkpoint.
+
 ## Learning goals
 
 By the end of this lab, you can:
@@ -14,18 +19,22 @@ By the end of this lab, you can:
   `calcOpticalFlowPyrLK`;
 - identify when a tracker needs new corners.
 
+---
+
 ## Start with the smallest program
 
 From the project root:
 
 ```bash
 uv sync
-uv run python module_3_sparse_optical_flow/lab.py
+uv run python docs/module-3/code/lab/lab.py
 ```
 
 This starter only opens the video, displays frames, and exits on **Q**, **Esc**,
 or end-of-file. Do not open `track_object.py` yet; that is the finished
 reference.
+
+---
 
 ## Build the tracker step by step
 
@@ -135,6 +144,8 @@ re-seeding occurs.
     motion without at least one input point, and three points make the median
     motion more stable.
 
+---
+
 ## Guided hands-on checkpoints
 
 ### Checkpoint 1 — Select a useful ROI
@@ -150,7 +161,7 @@ good ROI contains corners or texture that moves with the object.
 
 ### Checkpoint 2 — Inspect feature detection
 
-In `track_object.py`, temporarily print the number of points returned by
+In [`code/example/track_object.py`](code/example/track_object.py), temporarily print the number of points returned by
 `feature_points`. Compare the tight plane ROI with the sky-only ROI. Restore the
 script after observing the difference.
 
@@ -168,6 +179,8 @@ between consecutive frames.
 Select a very small ROI or one with few visible details. Observe when the
 script re-seeds corners. Explain why re-detection is needed instead of calling
 Lucas–Kanade forever with an empty point set.
+
+---
 
 ## Quiz
 
@@ -226,6 +239,8 @@ Lucas–Kanade forever with an empty point set.
   <p class="quiz-result" aria-live="polite"></p>
 </form>
 
+---
+
 ## AI tips for faster learning
 
 Use AI as a questioning partner, not as a replacement for running the lab.
@@ -244,6 +259,8 @@ Try one prompt at a time and verify the answer in the video or source code:
 When asking AI about a failure, include the exact traceback, the selected ROI
 description, and the smallest relevant code fragment. Ask for a hypothesis
 and a test before asking for a fix.
+
+---
 
 ## Completion checklist
 

@@ -25,5 +25,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Course roadmap: roadmap.md
-  - Module 3 — Sparse optical flow: module-3-sparse-optical-flow.md
-  - Lab 1 — Select and track one object: lab-1-select-and-track.md
+  - Module 3 — Sparse optical flow:
+      - Overview: module-3/index.md
+      - Sparse optical flow: module-3/sparse-optical-flow.md
+      - Lab 1 — Select and track one object: module-3/lab-1-select-and-track.md

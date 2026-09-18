@@ -5,7 +5,7 @@ from pathlib import Path
 import cv2
 
 
-VIDEO = Path(__file__).with_name("plane.mp4")
+VIDEO = Path(__file__).parents[1] / "assets" / "plane.mp4"
 
 
 def main() -> None:

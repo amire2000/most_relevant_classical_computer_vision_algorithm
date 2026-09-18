@@ -25,7 +25,7 @@
   Lucas–Kanade
 - Choosing tracks, regions of interest, and coordinate conventions
 
-### Module 3 — Sparse optical flow
+### [Module 3 — Sparse optical flow](module-3/index.md)
 
 The first implementation module. Follow selected points across frames and use
 their motion as a compact description of what is happening in a scene.
@@ -113,6 +113,8 @@ their motion as a compact description of what is happening in a scene.
 - Combining detection, tracking, geometry, and segmentation
 - Measuring accuracy, robustness, and runtime
 - Capstone scenario selection and evaluation plan
+
+---
 
 ## Scope boundary
 

@@ -17,6 +17,8 @@ practical exercise.
 See the [course roadmap](roadmap.md) for the planned sequence. The roadmap is
 kept separate from future implementations and lab notes.
 
+---
+
 ## Setup
 
 ```bash
