@@ -7,4 +7,5 @@ dependencies = [
   "mkdocs-material",
   "numpy",
   "opencv-python",
+  "pillow>=12.3.0",
 ]
