@@ -19,11 +19,11 @@ real-world horizon if the first frame is already tilted.
 
 ## The dataset
 
-This lab uses the same `code/stabilize/roll_imu_dataset/frames/` images as Lab
+This lab uses the same `code/lab-3/roll_imu_dataset/frames/` images as Lab
 3. It reads `camera.csv` only to get the ordered filenames. `imu.csv` and
 `roll_rad` are deliberately unused.
 
-![A tilted source frame](code/stabilize/roll_imu_dataset/frames/frame_0015.png)
+![A tilted source frame](code/lab-3/roll_imu_dataset/frames/frame_0015.png)
 
 ---
 
@@ -56,7 +56,7 @@ motion of the rotating scene instead of the fixed overlay.
 From the project root:
 
 ```bash
-uv run python docs/module-3/code/stabilize/stabilize_with_optical_flow.py
+uv run python docs/module-3/code/lab-3-1/stabilize_with_optical_flow.py
 ```
 
 The program opens an OpenCV movie-style window: **Original** is on the left

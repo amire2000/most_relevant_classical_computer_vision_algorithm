@@ -1,7 +1,7 @@
 """Starter for Lab 3 — display the synchronized camera frames.
 
 Run from the repository root:
-    uv run python docs/module-3/code/stabilize/lab_3_imu_stabilization.py
+    uv run python docs/module-3/code/lab-3/lab_3_imu_stabilization.py
 """
 
 from __future__ import annotations

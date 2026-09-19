@@ -5,13 +5,13 @@ This is the concept lesson for Module 3. Read it before starting
 the completed reference demo; the lab has you build the same core tracker in
 small steps.
 
-The runnable code lives in `code/example/track_object.py`. It lets you select
+The runnable code lives in `code/lab-1/track_object.py`. It lets you select
 an object in the first frame, seeds Shi–Tomasi corners, and tracks them with
 pyramidal Lucas–Kanade flow.
 
 ```bash
 uv sync
-uv run python docs/module-3/code/example/track_object.py
+uv run python docs/module-3/code/lab-1/track_object.py
 ```
 
 This is the minimal starting point. Robust estimation, ORB recovery, and

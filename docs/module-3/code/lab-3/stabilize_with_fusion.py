@@ -1,7 +1,7 @@
 """Reference: stabilize roll by fusing sparse optical flow and IMU samples.
 
 Run from the repository root:
-    uv run python docs/module-3/code/stabilize/stabilize_with_fusion.py
+    uv run python docs/module-3/code/lab-3/stabilize_with_fusion.py
 """
 
 from __future__ import annotations

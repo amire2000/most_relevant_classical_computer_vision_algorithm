@@ -31,3 +31,4 @@ nav:
       - Lab 1 — Select and track one object: module-3/lab-1-select-and-track.md
       - Lab 3 — Stabilize roll with IMU: module-3/lab-3-stabilize-roll-with-imu.md
       - Lab 3.1 — Stabilize with optical flow: module-3/lab-3-1-stabilize-with-optical-flow.md
+      - Lab 4 — Motion-based activity detection: module-3/lab-4-motion-activity-detection.md

@@ -1,7 +1,7 @@
 """Lab 3.1 solution: stabilize roll with sparse optical flow and RANSAC.
 
 Run from the repository root:
-    uv run python docs/module-3/code/stabilize/stabilize_with_optical_flow.py
+    uv run python docs/module-3/code/lab-3-1/stabilize_with_optical_flow.py
 """
 
 from __future__ import annotations
@@ -15,7 +15,7 @@ import numpy as np
 
 
 HERE = Path(__file__).parent
-DATA = HERE / "roll_imu_dataset"
+DATA = HERE.parent / "lab-3" / "roll_imu_dataset"
 
 
 def frame_paths() -> list[Path]:

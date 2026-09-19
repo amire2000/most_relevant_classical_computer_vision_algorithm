@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 
-VIDEO = Path(__file__).parents[1] / "assets" / "plane.mp4"
+VIDEO = Path(__file__).with_name("plane.mp4")
 FEATURES = dict(maxCorners=200, qualityLevel=0.005, minDistance=5, blockSize=7)
 LK = dict(
     winSize=(31, 31),

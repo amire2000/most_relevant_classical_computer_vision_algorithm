@@ -23,7 +23,7 @@ the camera rotation makes the bar level again.
 
 ## The dataset
 
-The dataset is in `code/stabilize/roll_imu_dataset/`:
+The dataset is in `code/lab-3/roll_imu_dataset/`:
 
 - `camera.csv` lists the timestamp and filename for every camera frame. It also
   contains `roll_rad`, but treat that column as a teacher-only answer: do not
@@ -36,9 +36,9 @@ The first image is level. Around frame 15, the virtual camera has rolled by
 about 20 degrees, so the white bar looks diagonal. The third image shows the
 target result after applying the IMU correction.
 
-![Level source frame](code/stabilize/roll_imu_dataset/frames/frame_0000.png)
+![Level source frame](code/lab-3/roll_imu_dataset/frames/frame_0000.png)
 
-![Tilted source frame](code/stabilize/roll_imu_dataset/frames/frame_0015.png)
+![Tilted source frame](code/lab-3/roll_imu_dataset/frames/frame_0015.png)
 
 ![Frame 15 corrected with IMU roll](images/lab-3-frame-0015-stabilized.png)
 
@@ -68,7 +68,7 @@ counter-clockwise to correct it.
 From the project root:
 
 ```bash
-uv run python docs/module-3/code/stabilize/lab_3_imu_stabilization.py
+uv run python docs/module-3/code/lab-3/lab_3_imu_stabilization.py
 ```
 
 The starter reads both CSV files, checks that timestamps match, and displays
@@ -136,7 +136,7 @@ The IMU measures camera rotation even when an image is blurry or dark. Sparse
 optical flow measures how corners in the image move. A later implementation
 will estimate rotation from tracked corners, then blend that estimate with the
 IMU roll. See the completed
-[`stabilize_with_fusion.py`](code/stabilize/stabilize_with_fusion.py) only
+[`stabilize_with_fusion.py`](code/lab-3/stabilize_with_fusion.py) only
 after finishing this IMU-only lab.
 
 ---

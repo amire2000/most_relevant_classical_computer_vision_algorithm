@@ -88,6 +88,7 @@ Run [Demo](sparse-optical-flow.md). It uses the bundled plane video, Shi–Tomas
 | [Lab 1 — Select and track one object](lab-1-select-and-track.md) | Available | Track a user-selected plane from its Shi–Tomasi corners. |
 | [Lab 3 — Stabilize roll with IMU](lab-3-stabilize-roll-with-imu.md) | Available | Use gyro roll to level a sequence of camera frames. |
 | [Lab 3.1 — Stabilize with optical flow](lab-3-1-stabilize-with-optical-flow.md) | Available | Use tracked corners and RANSAC to level frames without IMU data. |
+| [Lab 4 — Motion-based activity detection](lab-4-motion-activity-detection.md) | Available | Classify plane-frame motion as quiet or active from sparse flow. |
 | Camera motion estimation | Planned | Summarize consistent background-point motion as pan, tilt, or shake. |
 | Video stabilization | Planned | Use estimated camera movement to define a steadier view. |
 | Motion-based activity detection | Planned | Decide whether a scene contains meaningful movement from tracked points. |

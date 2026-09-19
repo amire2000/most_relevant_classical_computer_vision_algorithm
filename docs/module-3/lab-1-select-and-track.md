@@ -5,8 +5,8 @@ This is the first hands-on lab for Module 3. You will select the plane in
 those corners with pyramidal Lucas–Kanade optical flow.
 
 Read [Sparse optical flow](sparse-optical-flow.md) first. Work in
-[`code/lab/lab.py`](code/lab/lab.py); consult the completed
-[`code/example/track_object.py`](code/example/track_object.py) reference only
+[`code/lab-1/lab.py`](code/lab-1/lab.py); consult the completed
+[`code/lab-1/track_object.py`](code/lab-1/track_object.py) reference only
 after you have attempted each checkpoint.
 
 ## Learning goals
@@ -27,7 +27,7 @@ From the project root:
 
 ```bash
 uv sync
-uv run python docs/module-3/code/lab/lab.py
+uv run python docs/module-3/code/lab-1/lab.py
 ```
 
 This starter only opens the video, displays frames, and exits on **Q**, **Esc**,
@@ -161,7 +161,7 @@ good ROI contains corners or texture that moves with the object.
 
 ### Checkpoint 2 — Inspect feature detection
 
-In [`code/example/track_object.py`](code/example/track_object.py), temporarily print the number of points returned by
+In [`code/lab-1/track_object.py`](code/lab-1/track_object.py), temporarily print the number of points returned by
 `feature_points`. Compare the tight plane ROI with the sky-only ROI. Restore the
 script after observing the difference.
 
